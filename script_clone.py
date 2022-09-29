@@ -1,2 +1,3 @@
 from git import Repo
-Repo.clone_from("https://github.com/KeligMartin/4-SRC.git", "C:\\Users\\Bastien\\Desktop\\4SRC2\\TEST")
+your_path = str(input("Indiquez le chemin de destination\n"))
+Repo.clone_from("https://github.com/KeligMartin/4-SRC.git", your_path)
